@@ -4,12 +4,6 @@ class SymbolTableEntry{
 	private String name;
 	private String type;
 	private String constructs;
-	
-	public SymbolTableEntry(){
-		name="";
-		type="";
-		constructs="";
-	}
 
 	public SymbolTableEntry(String name,String type,String constructs){
 		this.name=name;
